@@ -5,7 +5,7 @@ module Codebreaker
     let(:game) { Game.new }
 
     before do
-      game.start
+      game.generate
     end
 
     context "#start" do
